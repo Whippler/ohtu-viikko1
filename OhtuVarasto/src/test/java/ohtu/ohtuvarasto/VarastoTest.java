@@ -28,7 +28,7 @@ public class VarastoTest {
     @Test
     public void konstruktoriLuoEpaTyhjanVaraston() {
         varasto = new Varasto(10, 5);
-        assertEquals(4, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(5, varasto.getSaldo(), vertailuTarkkuus);
         assertEquals(10, varasto.getTilavuus(), vertailuTarkkuus);
     }
 
